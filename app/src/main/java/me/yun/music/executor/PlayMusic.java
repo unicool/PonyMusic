@@ -5,7 +5,7 @@ import android.app.Dialog;
 import android.content.DialogInterface;
 import android.support.v7.app.AlertDialog;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.model.Music;
 import me.yun.music.storage.preference.Preferences;
 import me.yun.music.utils.NetworkUtils;

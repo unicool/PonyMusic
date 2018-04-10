@@ -10,7 +10,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.model.Music;
 import me.yun.music.service.AudioPlayer;
 import me.yun.music.utils.CoverLoader;

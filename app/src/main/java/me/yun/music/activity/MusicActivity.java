@@ -17,7 +17,7 @@ import android.widget.FrameLayout;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.adapter.FragmentAdapter;
 import me.yun.music.constants.Extras;
 import me.yun.music.constants.Keys;

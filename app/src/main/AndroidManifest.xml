@@ -50,7 +50,7 @@
         </receiver>
         <receiver android:name=".receiver.StatusBarReceiver">
             <intent-filter>
-                <action android:name="me.wcy.music.STATUS_BAR_ACTIONS" />
+                <action android:name="me.yun.music.STATUS_BAR_ACTIONS" />
             </intent-filter>
         </receiver>
 

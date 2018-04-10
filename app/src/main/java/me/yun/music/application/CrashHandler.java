@@ -10,7 +10,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Locale;
 
-import me.wcy.music.BuildConfig;
+import me.yun.music.BuildConfig;
 import me.yun.music.utils.FileUtils;
 
 /**

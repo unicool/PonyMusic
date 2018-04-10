@@ -6,7 +6,7 @@ import android.view.Gravity;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.utils.ScreenUtils;
 
 /**

@@ -7,7 +7,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.adapter.OnMoreClickListener;
 import me.yun.music.adapter.PlaylistAdapter;
 import me.yun.music.model.Music;

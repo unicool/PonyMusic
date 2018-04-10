@@ -15,7 +15,7 @@ import com.amap.api.location.LocationManagerProxy;
 
 import java.util.Calendar;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.application.AppCache;
 import me.yun.music.utils.binding.Bind;
 import me.yun.music.utils.binding.ViewBinder;

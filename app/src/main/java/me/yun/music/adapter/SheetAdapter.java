@@ -12,7 +12,7 @@ import com.bumptech.glide.Glide;
 
 import java.util.List;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.http.HttpCallback;
 import me.yun.music.http.HttpClient;
 import me.yun.music.model.OnlineMusic;

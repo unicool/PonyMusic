@@ -3,7 +3,7 @@ package me.yun.music.executor;
 import android.content.Context;
 import android.content.Intent;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.http.HttpCallback;
 import me.yun.music.http.HttpClient;
 import me.yun.music.model.DownloadInfo;

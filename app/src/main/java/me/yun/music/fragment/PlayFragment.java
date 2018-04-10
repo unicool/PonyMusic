@@ -25,7 +25,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import me.wcy.lrcview.LrcView;
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.adapter.PlayPagerAdapter;
 import me.yun.music.constants.Actions;
 import me.yun.music.enums.PlayModeEnum;

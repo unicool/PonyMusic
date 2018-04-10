@@ -17,7 +17,7 @@ import android.widget.TextView;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.activity.MusicActivity;
 import me.yun.music.constants.Extras;
 import me.yun.music.model.Music;

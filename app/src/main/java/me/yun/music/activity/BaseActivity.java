@@ -23,7 +23,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.view.WindowManager;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.service.PlayService;
 import me.yun.music.storage.preference.Preferences;
 import me.yun.music.utils.PermissionReq;

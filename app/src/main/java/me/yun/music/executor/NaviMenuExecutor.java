@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AlertDialog;
 import android.view.MenuItem;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.activity.AboutActivity;
 import me.yun.music.activity.MusicActivity;
 import me.yun.music.activity.SettingActivity;

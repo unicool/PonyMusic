@@ -8,7 +8,7 @@ import android.net.Uri;
 import android.support.v7.app.AlertDialog;
 import android.webkit.MimeTypeMap;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.application.AppCache;
 import me.yun.music.storage.preference.Preferences;
 import me.yun.music.utils.FileUtils;

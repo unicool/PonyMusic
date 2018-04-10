@@ -28,7 +28,7 @@ import com.hwangjr.rxbus.annotation.Tag;
 import java.io.File;
 import java.util.List;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.activity.MusicInfoActivity;
 import me.yun.music.adapter.OnMoreClickListener;
 import me.yun.music.adapter.PlaylistAdapter;

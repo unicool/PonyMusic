@@ -11,7 +11,7 @@ import me.yun.music.service.AudioPlayer;
  * Created by wcy on 2017/4/18.
  */
 public class StatusBarReceiver extends BroadcastReceiver {
-    public static final String ACTION_STATUS_BAR = "me.wcy.music.STATUS_BAR_ACTIONS";
+    public static final String ACTION_STATUS_BAR = "me.yun.music.STATUS_BAR_ACTIONS";
     public static final String EXTRA = "extra";
     public static final String EXTRA_NEXT = "next";
     public static final String EXTRA_PLAY_PAUSE = "play_pause";

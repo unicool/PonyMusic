@@ -16,7 +16,7 @@ import java.lang.reflect.Field;
 import java.util.ArrayList;
 import java.util.List;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.adapter.OnMoreClickListener;
 import me.yun.music.adapter.SearchMusicAdapter;
 import me.yun.music.enums.LoadStateEnum;

@@ -9,7 +9,7 @@ import android.widget.TextView;
 
 import java.util.List;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.model.SearchMusic;
 import me.yun.music.utils.binding.Bind;
 import me.yun.music.utils.binding.ViewBinder;

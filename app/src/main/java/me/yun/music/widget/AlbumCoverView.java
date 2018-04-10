@@ -12,7 +12,7 @@ import android.os.Handler;
 import android.util.AttributeSet;
 import android.view.View;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.utils.CoverLoader;
 import me.yun.music.utils.ImageUtils;
 

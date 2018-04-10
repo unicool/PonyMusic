@@ -12,7 +12,7 @@ import com.hwangjr.rxbus.RxBus;
 
 import java.io.File;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.application.AppCache;
 import me.yun.music.constants.RxBusTags;
 import me.yun.music.executor.DownloadMusicInfo;

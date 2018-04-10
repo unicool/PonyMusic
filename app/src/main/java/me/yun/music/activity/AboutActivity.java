@@ -6,8 +6,8 @@ import android.os.Bundle;
 import android.preference.Preference;
 import android.preference.PreferenceFragment;
 
-import me.wcy.music.BuildConfig;
-import me.wcy.music.R;
+import me.yun.music.BuildConfig;
+import me.yun.music.R;
 
 public class AboutActivity extends BaseActivity {
 

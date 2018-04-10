@@ -14,7 +14,7 @@ import java.io.InputStream;
 import java.util.HashMap;
 import java.util.Map;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.model.Music;
 
 /**

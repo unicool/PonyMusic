@@ -19,7 +19,7 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.constants.Extras;
 import me.yun.music.enums.LoadStateEnum;
 import me.yun.music.http.HttpCallback;

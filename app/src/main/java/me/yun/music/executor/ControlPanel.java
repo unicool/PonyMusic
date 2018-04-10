@@ -8,7 +8,7 @@ import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.activity.PlaylistActivity;
 import me.yun.music.model.Music;
 import me.yun.music.service.AudioPlayer;

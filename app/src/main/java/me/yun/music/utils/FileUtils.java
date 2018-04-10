@@ -12,7 +12,7 @@ import java.util.Locale;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.application.AppCache;
 import me.yun.music.model.Music;
 

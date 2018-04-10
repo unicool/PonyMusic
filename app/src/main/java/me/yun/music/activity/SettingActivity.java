@@ -10,7 +10,7 @@ import android.text.TextUtils;
 
 import com.hwangjr.rxbus.RxBus;
 
-import me.wcy.music.R;
+import me.yun.music.R;
 import me.yun.music.constants.RxBusTags;
 import me.yun.music.service.AudioPlayer;
 import me.yun.music.storage.preference.Preferences;

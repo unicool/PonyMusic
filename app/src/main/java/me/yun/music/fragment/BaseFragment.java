@@ -14,7 +14,6 @@ import me.yun.music.utils.binding.ViewBinder;
 
 /**
  * 基类<br>
- * Created by wcy on 2015/11/26.
  */
 public abstract class BaseFragment extends Fragment {
     protected Handler handler;

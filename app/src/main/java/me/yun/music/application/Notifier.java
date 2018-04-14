@@ -27,7 +27,7 @@ import me.yun.music.utils.CoverLoader;
 import me.yun.music.utils.FileUtils;
 
 /**
- * Created by wcy on 2017/4/18.
+ *
  */
 public class Notifier {
     private static final int NOTIFICATION_ID = 0x111;

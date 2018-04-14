@@ -19,7 +19,6 @@ import me.yun.music.storage.preference.Preferences;
 
 /**
  * 歌曲工具类
- * Created by wcy on 2015/11/27.
  */
 public class MusicUtils {
     private static final String SELECTION = MediaStore.Audio.AudioColumns.SIZE + " >= ? AND " + MediaStore.Audio.AudioColumns.DURATION + " >= ?";

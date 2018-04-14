@@ -8,7 +8,6 @@ import android.text.TextUtils;
 import me.yun.music.service.AudioPlayer;
 
 /**
- * Created by wcy on 2017/4/18.
  */
 public class StatusBarReceiver extends BroadcastReceiver {
     public static final String ACTION_STATUS_BAR = "me.yun.music.STATUS_BAR_ACTIONS";

@@ -20,7 +20,6 @@ import me.yun.music.utils.binding.ViewBinder;
 
 /**
  * 本地音乐列表适配器
- * Created by wcy on 2015/11/27.
  */
 public class PlaylistAdapter extends BaseAdapter {
     private List<Music> musicList;

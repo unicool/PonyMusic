@@ -12,7 +12,6 @@ import java.io.Serializable;
 
 /**
  * 单曲信息
- * Created by wcy on 2015/11/27.
  */
 @Entity(nameInDb = "SystemMessage")
 public class Music implements Serializable {

@@ -13,7 +13,6 @@ import me.yun.music.constants.Actions;
 
 /**
  * 音乐播放后台服务
- * Created by wcy on 2015/11/27.
  */
 public class PlayService extends Service {
     private static final String TAG = "Service";

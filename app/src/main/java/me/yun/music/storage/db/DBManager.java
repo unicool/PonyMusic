@@ -9,7 +9,7 @@ import me.yun.music.storage.db.greendao.DaoSession;
 import me.yun.music.storage.db.greendao.MusicDao;
 
 /**
- * Created by wcy on 2018/1/27.
+ *
  */
 public class DBManager {
     private static final String DB_NAME = "database";

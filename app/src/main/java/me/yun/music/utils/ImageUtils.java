@@ -17,7 +17,6 @@ import me.yun.music.constants.RequestCode;
 
 /**
  * 图像工具类
- * Created by wcy on 2015/11/29.
  */
 public class ImageUtils {
     private static final int BLUR_RADIUS = 50;

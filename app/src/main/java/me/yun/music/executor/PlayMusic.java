@@ -11,7 +11,7 @@ import me.yun.music.storage.preference.Preferences;
 import me.yun.music.utils.NetworkUtils;
 
 /**
- * Created by hzwangchenyan on 2017/1/20.
+ *
  */
 public abstract class PlayMusic implements IExecutor<Music> {
     private Activity mActivity;

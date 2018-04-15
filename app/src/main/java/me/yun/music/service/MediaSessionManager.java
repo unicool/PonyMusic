@@ -10,7 +10,7 @@ import me.yun.music.model.Music;
 import me.yun.music.utils.CoverLoader;
 
 /**
- * Created by hzwangchenyan on 2017/8/8.
+ *
  */
 public class MediaSessionManager {
     private static final String TAG = "MediaSessionManager";

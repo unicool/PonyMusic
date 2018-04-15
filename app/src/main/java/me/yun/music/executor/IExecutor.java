@@ -1,7 +1,7 @@
 package me.yun.music.executor;
 
 /**
- * Created by hzwangchenyan on 2017/1/20.
+ *
  */
 public interface IExecutor<T> {
     void execute();

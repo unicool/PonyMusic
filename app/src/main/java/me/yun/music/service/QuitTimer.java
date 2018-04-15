@@ -9,7 +9,7 @@ import me.yun.music.application.AppCache;
 import me.yun.music.constants.Actions;
 
 /**
- * Created by hzwangchenyan on 2017/8/8.
+ *
  */
 public class QuitTimer {
     private Context context;

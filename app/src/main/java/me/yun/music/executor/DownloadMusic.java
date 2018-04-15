@@ -16,7 +16,7 @@ import me.yun.music.utils.NetworkUtils;
 import me.yun.music.utils.ToastUtils;
 
 /**
- * Created by hzwangchenyan on 2017/1/20.
+ *
  */
 public abstract class DownloadMusic implements IExecutor<Void> {
     private Activity mActivity;

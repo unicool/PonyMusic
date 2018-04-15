@@ -22,7 +22,6 @@ import me.yun.music.utils.id3.ID3Tags;
 
 /**
  * 下载完成广播接收器
- * Created by hzwangchenyan on 2015/12/30.
  */
 public class DownloadReceiver extends BroadcastReceiver {
     private Handler mHandler = new Handler(Looper.getMainLooper());

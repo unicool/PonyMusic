@@ -2,7 +2,6 @@ package me.yun.music.constants;
 
 /**
  * Extras
- * Created by hzwangchenyan on 2015/12/25.
  */
 public interface Extras {
     String EXTRA_NOTIFICATION = "me.yun.music.notification";

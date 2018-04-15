@@ -16,7 +16,6 @@ import me.yun.music.utils.ToastUtils;
 
 /**
  * 导航菜单执行器
- * Created by hzwangchenyan on 2016/1/14.
  */
 public class NaviMenuExecutor {
     private MusicActivity activity;

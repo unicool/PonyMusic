@@ -18,7 +18,7 @@ import me.yun.music.utils.binding.Bind;
 import me.yun.music.utils.binding.ViewBinder;
 
 /**
- *
+ * 音乐底部播放条控制器
  */
 public class ControlPanel implements View.OnClickListener, OnPlayerEventListener {
     @Bind(R.id.iv_play_bar_cover)

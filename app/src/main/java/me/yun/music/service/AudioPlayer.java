@@ -21,7 +21,7 @@ import me.yun.music.storage.preference.Preferences;
 import me.yun.music.utils.ToastUtils;
 
 /**
- *
+ * 音乐播放控制器
  */
 public class AudioPlayer {
     private static final int STATE_IDLE = 0;

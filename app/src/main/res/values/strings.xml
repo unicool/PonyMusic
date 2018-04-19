@@ -1,5 +1,7 @@
 <resources>
     <string name="app_name">听云音乐</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="sure">确定</string>
     <string name="cancel">取消</string>
     <string name="share">分享</string>
@@ -74,4 +76,5 @@
     <string name="grant_permission_setting">授权成功，请在再次操作以设置铃声</string>
     <string name="no_permission_select_image">没有权限，无法选择图片！</string>
     <string name="activity_playlist">播放列表</string>
+    <string name="activity_userinfo">用户信息</string>
 </resources>

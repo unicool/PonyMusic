@@ -21,7 +21,7 @@ import me.yun.music.utils.ScreenUtils;
 import me.yun.music.utils.ToastUtils;
 
 /**
- *
+ * 全局数据缓存
  */
 public class AppCache {
     private Context mContext;

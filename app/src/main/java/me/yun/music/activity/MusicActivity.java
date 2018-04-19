@@ -23,6 +23,7 @@ import me.yun.music.constants.Extras;
 import me.yun.music.constants.Keys;
 import me.yun.music.executor.ControlPanel;
 import me.yun.music.executor.NaviMenuExecutor;
+import me.yun.music.executor.UserExecutor;
 import me.yun.music.executor.WeatherExecutor;
 import me.yun.music.fragment.LocalMusicFragment;
 import me.yun.music.fragment.PlayFragment;
@@ -61,6 +62,7 @@ public class MusicActivity extends BaseActivity implements View.OnClickListener,
     private NaviMenuExecutor naviMenuExecutor;
     private MenuItem timerItem;
     private boolean isPlayFragmentShow;
+    private boolean isPlayWeatherInfo = false;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -71,7 +73,11 @@ public class MusicActivity extends BaseActivity implements View.OnClickListener,
     @Override
     protected void onServiceBound() {
         setupView();
-        updateWeather();
+        if (isPlayWeatherInfo) {
+            updateWeather();
+        } else {
+            updateUser();
+        }
         controlPanel = new ControlPanel(flPlayBar);
         naviMenuExecutor = new NaviMenuExecutor(this);
         AudioPlayer.get().addOnPlayEventListener(controlPanel);
@@ -87,7 +93,11 @@ public class MusicActivity extends BaseActivity implements View.OnClickListener,
 
     private void setupView() {
         // add navigation header
-        vNavigationHeader = LayoutInflater.from(this).inflate(R.layout.navigation_header, navigationView, false);
+        if (isPlayWeatherInfo) {
+            vNavigationHeader = LayoutInflater.from(this).inflate(R.layout.navigation_header_weather, navigationView, false);
+        } else {
+            vNavigationHeader = LayoutInflater.from(this).inflate(R.layout.navigation_header_user, navigationView, false);
+        }
         navigationView.addHeaderView(vNavigationHeader);
 
         // setup view pager
@@ -106,6 +116,10 @@ public class MusicActivity extends BaseActivity implements View.OnClickListener,
         flPlayBar.setOnClickListener(this);
         mViewPager.addOnPageChangeListener(this);
         navigationView.setNavigationItemSelectedListener(this);
+    }
+
+    private void updateUser() {
+        new UserExecutor(MusicActivity.this, drawerLayout, this.findViewById(R.id.toolbar), vNavigationHeader).execute();
     }
 
     private void updateWeather() {
@@ -130,7 +144,7 @@ public class MusicActivity extends BaseActivity implements View.OnClickListener,
         Intent intent = getIntent();
         if (intent.hasExtra(Extras.EXTRA_NOTIFICATION)) {
             showPlayingFragment();
-            setIntent(new Intent());
+            setIntent(new Intent()); //清除了 EXTRA_NOTIFICATION 的数据
         }
     }
 

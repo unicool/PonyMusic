@@ -77,8 +77,7 @@ public class LocalMusicFragment extends BaseFragment implements AdapterView.OnIt
         lvLocalMusic.setVisibility(View.GONE);
         vSearching.setVisibility(View.VISIBLE);
         PermissionReq.with(this)
-                .permissions(Manifest.permission.READ_EXTERNAL_STORAGE,
-                        Manifest.permission.WRITE_EXTERNAL_STORAGE)
+                .permissions(Manifest.permission.READ_EXTERNAL_STORAGE, Manifest.permission.WRITE_EXTERNAL_STORAGE)
                 .result(new PermissionReq.Result() {
                     @SuppressLint("StaticFieldLeak")
                     @Override

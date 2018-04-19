@@ -9,7 +9,7 @@ import me.yun.music.application.AppCache;
 import me.yun.music.constants.Actions;
 
 /**
- *
+ * 定时退出控制器
  */
 public class QuitTimer {
     private Context context;
@@ -71,8 +71,8 @@ public class QuitTimer {
                 }
                 handler.postDelayed(this, DateUtils.SECOND_IN_MILLIS);
             } else {
-                AppCache.get().clearStack();
-                PlayService.startCommand(context, Actions.ACTION_STOP);
+                AppCache.get().clearStack(); //退出程序
+                PlayService.startCommand(context, Actions.ACTION_STOP); //退出播放
             }
         }
     };

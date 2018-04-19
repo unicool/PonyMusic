@@ -21,6 +21,6 @@
             android:id="@+id/action_about"
             android:icon="@drawable/ic_menu_about"
             android:title="@string/menu_about"
-            android:visible="false" />
+            android:visible="true" />
     </group>
 </menu>
